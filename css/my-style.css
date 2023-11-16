@@ -1,0 +1,89 @@
+.invitation{
+    height: 100vh;
+    background-image: url('../images/invitation/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 11;
+}
+
+
+.invitation::after{
+    content: '';
+    background-color: #181c30ab;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.invitation .sec-title{
+    padding: 120px 0 0px;
+}
+
+
+.invitation .sec-title h2{
+    color: #fff;
+    font-size: 50px;
+}
+
+
+.invitation-box {
+    border: 2px solid #fff;
+    padding: 30px 50px 30px 50px;
+    margin: 0 180px;
+}
+
+.invitation-box h2{
+    color: #fff;
+}
+
+.invitation-box .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.invitation-box .right{
+    background-color: #171c30b6;
+    text-align: center;
+    padding: 22px;
+}
+.invitation-box .right h4{
+    font-size: 45px;
+    color: #fff;
+}
+
+.invitation-box .right p{
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.invitation-box .right .icon-leaves-36{
+    filter: brightness(0) invert(1);
+}
+
+.invitation-box .right .date-box h4{
+    font-size: 26px;
+    color: #fff;
+}
+
+
+.invitation-box .right .date-box h6{
+    color: #fff;
+}
+
+.invitation-box .right .add-calendar-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.call-to-action{
+    padding: 100px 10px;
+}
