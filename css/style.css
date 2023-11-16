@@ -21160,7 +21160,7 @@ Sidebar
 }
 
 .calender-btn{
-  background-image: url('/wedding-btn.png');
+  background-image: url('../images/wedding-btn.png');
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
